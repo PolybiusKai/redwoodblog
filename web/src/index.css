@@ -1,3 +1,10 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,20 +14,11 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  @apply bg-indigo-500;
 }
 
 a {
   text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: blue;
-}
-
-.active {
-  color: blue;
-
 }
 
 ul {
@@ -85,3 +83,10 @@ textarea.error {
 .flex-between button {
   display: inline;
 }
+
+
+
+/* My CSS
+============================================================================= */
+
+
